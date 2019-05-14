@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="15" passed="15">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="191728" started-at="2019-05-12T18:14:44Z" finished-at="2019-05-12T18:17:56Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="191728" started-at="2019-05-12T18:14:44Z" finished-at="2019-05-12T18:17:56Z">
+      <class name="Runnerpackage.RunnerClass">
+        <test-method status="PASS" signature="SetUpClass()[pri:0, instance:Runnerpackage.RunnerClass@29ca901e]" name="SetUpClass" is-config="true" duration-ms="152" started-at="2019-05-12T18:14:44Z" finished-at="2019-05-12T18:14:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runnerpackage.RunnerClass@29ca901e]" name="feature" duration-ms="6463" started-at="2019-05-12T18:14:44Z" data-provider="features" finished-at="2019-05-12T18:14:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Homepage displayed and verify the Dresses menu option available"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Dresses"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runnerpackage.RunnerClass@29ca901e]" name="feature" duration-ms="5824" started-at="2019-05-12T18:14:51Z" data-provider="features" finished-at="2019-05-12T18:14:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["user at the homepage and verify the Dresses menu option is click and navigate"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Dresses"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runnerpackage.RunnerClass@29ca901e]" name="feature" duration-ms="40775" started-at="2019-05-12T18:14:56Z" data-provider="features" finished-at="2019-05-12T18:15:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["All five dresses are listed on the summary page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Dresses"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runnerpackage.RunnerClass@29ca901e]" name="feature" duration-ms="35974" started-at="2019-05-12T18:15:37Z" data-provider="features" finished-at="2019-05-12T18:16:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["The Total price of each dress is correct"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Dresses"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runnerpackage.RunnerClass@29ca901e]" name="feature" duration-ms="37239" started-at="2019-05-12T18:16:13Z" data-provider="features" finished-at="2019-05-12T18:16:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["The Total product price is the sum of the total price of each dress"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Dresses"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runnerpackage.RunnerClass@29ca901e]" name="feature" duration-ms="4192" started-at="2019-05-12T18:16:50Z" data-provider="features" finished-at="2019-05-12T18:16:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify user homepage Displayed"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runnerpackage.RunnerClass@29ca901e]" name="feature" duration-ms="4694" started-at="2019-05-12T18:16:55Z" data-provider="features" finished-at="2019-05-12T18:16:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the title of the homepage"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runnerpackage.RunnerClass@29ca901e]" name="feature" duration-ms="6628" started-at="2019-05-12T18:16:59Z" data-provider="features" finished-at="2019-05-12T18:17:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the Text (ALREADY REGISTERED?) is present in the Login Area"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runnerpackage.RunnerClass@29ca901e]" name="feature" duration-ms="7457" started-at="2019-05-12T18:17:06Z" data-provider="features" finished-at="2019-05-12T18:17:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with valid username with valid password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runnerpackage.RunnerClass@29ca901e]" name="feature" duration-ms="6741" started-at="2019-05-12T18:17:13Z" data-provider="features" finished-at="2019-05-12T18:17:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with no email with valid password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runnerpackage.RunnerClass@29ca901e]" name="feature" duration-ms="7290" started-at="2019-05-12T18:17:20Z" data-provider="features" finished-at="2019-05-12T18:17:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with valid email and no password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runnerpackage.RunnerClass@29ca901e]" name="feature" duration-ms="6673" started-at="2019-05-12T18:17:27Z" data-provider="features" finished-at="2019-05-12T18:17:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with no email no password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runnerpackage.RunnerClass@29ca901e]" name="feature" duration-ms="6786" started-at="2019-05-12T18:17:34Z" data-provider="features" finished-at="2019-05-12T18:17:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with invalid username and valid password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runnerpackage.RunnerClass@29ca901e]" name="feature" duration-ms="7673" started-at="2019-05-12T18:17:41Z" data-provider="features" finished-at="2019-05-12T18:17:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with valid username and invalid password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runnerpackage.RunnerClass@29ca901e]" name="feature" duration-ms="7015" started-at="2019-05-12T18:17:49Z" data-provider="features" finished-at="2019-05-12T18:17:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with invalid username and invalid password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Runnerpackage.RunnerClass@29ca901e]" name="teardown" is-config="true" duration-ms="64" started-at="2019-05-12T18:17:56Z" finished-at="2019-05-12T18:17:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Runnerpackage.RunnerClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
